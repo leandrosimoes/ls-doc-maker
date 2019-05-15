@@ -1,0 +1,10 @@
+﻿[
+  {
+    "outputFile": "src/css/app.css",
+    "inputFile": "src/css/app.less"
+  },
+  {
+    "outputFile": "src/css/vars.css",
+    "inputFile": "src/css/vars.less"
+  }
+]

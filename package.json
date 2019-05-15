@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "name": "ls-doc-maker",
+  "private": true,
+  "devDependencies": {},
+  "main": "./src/index.html",
+  "js-flags": "--expose-gc",
+  "window": {
+    "resizable": true,
+    "position": "mouse"
+  },
+  "dependencies": {
+    "ncp": "^2.0.0"
+  }
+}
