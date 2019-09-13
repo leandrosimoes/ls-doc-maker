@@ -64,7 +64,7 @@
                 if (!!err) {
                     onError();
                 } else {
-                    fs.readFile(destinationPath + '/index.html', 'utf-8', function (err, data) {
+                    fs.readFile(destinationPath + '/index.html', 'utf8', function (err, data) {
                         if (!!err) {
                             onError();
                         } else {
@@ -82,7 +82,7 @@
                                             .replace('<input id="ls-export-path" type="file" nwdirectory />', '')
                                             .replace(/\/src\//g, './');
 
-                            fs.writeFile(destinationPath + '/index.html', newValue, 'utf-8', function (err) {
+                            fs.writeFile(destinationPath + '/index.html', newValue, 'utf8', function (err) {
                                 if (!!err) {
                                     onError();
                                 } else {
